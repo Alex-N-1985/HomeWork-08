@@ -44,7 +44,7 @@ body p {
     text-align: left;
 }
 
-.mindata, .maxdata {
+.mindata, .maxdata, .curdata, .curdata1, .curdata2 {
     display: inline-block;
     position: absolute;
     padding: 5px;
@@ -71,12 +71,16 @@ body p {
     right: 5px;
 }
 
-.modal input[type=range] {
-    display: block;
-    margin-bottom: 10px;
-    position: absolute;
-    width: 100%;
-    bottom: 0px;
+.curdata {
+    left: 47.5%;
+}
+
+.curdata1 {
+    left: 28.5%;
+}
+
+.curdata2 {
+    right: 27%;
 }
 
 option {
@@ -90,3 +94,12 @@ datalist {
     writing-mode: vertical-lr;
     width: 100%;
 }
+
+.modal input[type=range] {
+    display: block;
+    margin-bottom: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
